@@ -1,0 +1,202 @@
+<html>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+
+
+<body>
+	<div id="top">
+
+		<img id="headerpic" src = "Profilepic.jpg" height="500" width="2000">
+		<h id= "name">
+			Yifu Wu
+		</h>
+		<h id = "position">
+			Software Engineering
+			<br>
+			McMaster University
+		</h>
+	</div>
+
+	<div class="row">
+		<div class="col-md-4">
+		</div>
+		<div class="col-md-4">
+
+			<p id="firstp" class="bg-primary">
+				Welcome to my personal site! 
+				<br>
+				I am currently studying software engineering in McMaster University! 
+				<br>
+				I want to use this site to show you my skills and projects and hope you will like them!
+			</p>
+
+			<h3 class="bg-success text-uppercase">skill summary</h3>
+			<p id="secondp" class="bg-success">
+				<strong>Programming:</strong>
+				C++/C, C#, Java, HTML/CSS, JavaScript, Python, Git, BASH, SQL
+				Frameworks/Tools:
+				Angular, Unity, MapleSim, Autodesk Inventor
+				<br>
+				<strong>Interpersonal:</strong>
+				Working in tandem with team members to coordinate on projects, ensuring the quality and efficiency of individual and group performance
+				Highly-motivated individual with the ability to learn quickly under minimum guidance
+				Excellent team player with strong communication skills
+				Passionate for software engineering
+			</p>
+			<h3 class="bg-info text-uppercase">projects</h3>	
+			<p id="thirdp" class="bg-info">
+				<strong>CD-ROM GEAR TRAIN DESIGN PROJECT (Team Leader)</strong>
+				<br>
+				Developed a combination of gear train to efficiently connect motor with read-head in CD-ROM.
+				Excellent understanding of engineering design process
+				<br>Tools: <strong>AutoDesk, MapleSim</strong>
+				<br>
+				<br>
+				<strong>HACKATHONS PROJECT</strong>
+				<br>
+				<strong>Think Engineering Challenge</strong>
+				<br>
+				<a href="https://github.com/TinkLyke/tinklyke.github.io">Project Link</a>
+				<br>
+				Developed an application that works as a survey, taking user’s input and producing suitable engineering programs.
+				<br>Tools: <strong>Unity, C#</strong>
+				<br>
+				<br>
+				<strong>OTHER PROJECTS</strong>
+				<br>
+				<strong>LittleCalculator</strong>
+				<br>
+				<a href="https://github.com/TinkLyke/Cpp_LittleCalculator">Project Link</a>
+				<br>
+				Programmed a fully functional calculator using object oriented design principles in a team of two
+				<br>
+				Tools: <strong>C++</strong>
+				<br>
+				<strong>Bash Shell Project (Linux):</strong>
+				<br>
+				<a href="https://github.com/TinkLyke/LinuxProject">Project Link</a>
+				<br>
+				Programmed an application using Bash Shell that takes input string and displaying itself with its longest Lyndon substring
+				<br>
+				Tools: <strong>Bash Shell Scripting</strong>
+				<br>
+
+				<strong>Personal Website:</strong>
+				<br>
+				this site!!
+				<br>
+				Tools: <strong>HTML/CSS,JavaScript</strong>
+				<br>
+				
+			</p>
+			<h3 class="bg-warning text-uppercase">interests</h3>
+			<p id="fourthp" class="bg-warning">
+				Developing video games
+				<br>
+				Designing digital arts
+				<br>
+				<strong>**there are some of my drawing on the right side!! Enjoy!!! &#9786</strong> 
+			</p>
+
+		</div>
+
+		<div class="col-md-4">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="eye.jpg" alt="eye" height="500" width="400">
+					</div>
+
+					<div class="item">
+						<img src="gun.jpg" alt="gun" height="500" width="400">
+					</div>
+
+					<div class="item">
+						<img src="light.jpg" alt="light" height="500" width="400">
+					</div>
+
+					<div class="item">
+						<img src="night.jpg" alt="night" height="500" width="400">
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>
+
+
+<style>
+	#myCarousel{
+		height: 500;
+		width: 400;
+		top: 100;
+		left: 50
+	}
+	#top{
+		height: 500;
+		width: 2000;
+		position: relative;
+	}
+	#headerpic{
+		position: absolute;
+		left: 0;
+		top:0;
+	}
+	#name{
+		z-index: 100;
+		position: absolute;
+		color: white;
+		font-size: 50px;
+		font-weight: bold;
+		left: 50px;
+		top: 350px;
+	}
+	#position{
+		z-index: 100;
+		position: absolute;
+		color: white;
+		font-size: 25px;
+		left: 50px;
+		top: 400px;
+	}
+	body{
+		background-color:#000000;
+	}
+	h2{
+		color: white;
+	}
+
+
+</style>
