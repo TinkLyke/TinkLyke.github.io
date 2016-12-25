@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+}
+
+html, body{
+	height: 100%
+	
+
+
+}
+body{
+	
+	overflow: scroll;
+
+
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin-bottom: 20px;
+}
+
+nav{
+	position: fixed;
+	width: 100%;
+	
+	height: 50px;
+	z-index: 99;
+
+	background-color: rgba(0,0,0,.5);
+	text-align: center;
+}
+
+
+nav a{
+	text-decoration: none;
+	color:#fff;
+	line-height: 50px;
+	font-size: 1vw;
+	margin-left: 30px;
+	
+
+}
+
+.sect{
+	min-height: 800px;
+	min-width: 1024px;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+.subSection{
+	height: 70%;
+	min-height: 560px;
+	
+}
+
+.textbox1{
+	
+	position: relative;
+	top: 20%;
+	color: #fff;
+	margin-left: 20%;
+	z-index: 50px;
+	line-height: 75px;
+	text-shadow: 3px 2px 0px #000000;
+	
+}
+
+.textbox2{
+	text-decoration: none;
+	position: relative;
+	top: 10%;
+	color: #000000;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 1.5vw;
+	z-index: 50px;
+	line-height: 50px;
+
+}
+
+.textbox3{
+	text-decoration: none;
+	position: relative;
+	top: 22%;
+	color: #fff;
+	margin-left: 20%;
+	font-size: 1.5vw;
+	z-index: 50px;
+	text-shadow: 1.5px 2px 0px #000000;
+
+
+}
+
+
+#welcome{
+	font-size: 5vw;
+
+}
+#intro{
+	font-size: 3vw;
+}
+h1{
+	font-weight: bold;
+	font-size: 2vw;
+
+}
+
+
+.sectOne{
+	background-image: url("image1.jpg");
+}
+
+.subOne{
+	background-color:#FFF2CB;
+}
+
+.sectTwo{
+
+	background-image: url("image2.jpg");
+}
+
+.subTwo{
+	background-color:#FF9E69;
+}
+
+.sectThree{
+	background-image: url("image5.jpg");
+}
+
+.subThree{
+	background-color:rgb(1,61,101);
+}
+
+.sectFour{
+	background-image: url("image7.jpg");
+}

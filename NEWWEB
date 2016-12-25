@@ -1,0 +1,54 @@
+<html>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="bootstrap.min.js"></script>
+<script scr="app.js"></script>
+
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<title>YIFU</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+
+
+<!--
+	<a id="home" href="#homesect">HOME</a>
+	<a id="skill" href="#skillsect">SKILLS</a>
+	<a id="project" href="#projectsect">PROJECTS</a>
+	<a id="work" href="#workexpsect">WORKEXPERIENCE</a>
+	<a id="interest" href="#interestsect">INTERESTS</a>
+-->
+</nav>
+
+
+<div class="sect"></div>
+<div class="subSection"></div>
+<div class="sect"></div>
+<div class="subSection"></div>
+<div class="sect"></div>
+
+<!--
+<div id="homeSection" class="sectOne"></div>
+<div id="skillSection" class="sectTwo"></div>
+<div id="projectSection" class="sectThree"></div>
+<div id="workexpSection" class="sectFour"></div>
+<div id="interestSection" class="sectFive"></div>
+
+
+-->
+
+
+
+
+</body>
+</html>>

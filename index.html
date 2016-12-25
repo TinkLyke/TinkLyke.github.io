@@ -1,204 +1,117 @@
+
 <html>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="bootstrap.min.css">
+<head lang="en">
+	<meta charset="utf-8">
+	<title>YIFU</title>
 
-<!-- jQuery library -->
-<script src="jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/app.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="bootstrap.min.js"></script>
-
-
-
-
+</head>
 <body>
-	<div id="top">
+<nav>
+	<a id="home" href="#homeSection">HOME</a>
+	<a id="aboutme" href="#aboutmeSection">ABOUT ME</a>
+	<a id="skill" href="#skillSection">SKILLS</a>
+	<a id="project" href="#projectSection">PROJECTS</a>
+	<a id="workexp" href="#workexpSection">WORKEXPERIENCE</a>
+	<a id="interest" href="#interestSection">INTERESTS</a>
+	<a id="contact" href="#contactSection">CONTACT</a>
+</nav>
 
-		<img id="headerpic" src = "Profilepic.jpg" height="500" width="2000">
-		<h id= "name">
-			Yifu Wu
-		</h>
-		<h id = "position">
-			Software Engineering
-			<br>
-			McMaster University
-		</h>
-	</div>
+<!--
+<div class="sect sectOne"></div>
+<div class="subSection"></div>
+<div class="sect sectTwo"></div>
+<div class="subSection"></div>
+<div class="sect sectThree"></div>
+-->
 
-	<div class="row">
-		<div class="col-md-4">
-		</div>
-		<div class="col-md-4">
-
-			<p id="firstp" class="bg-primary">
-				Welcome to my personal site! 
-				<br>
-				I am currently studying software engineering in McMaster University! 
-				<br>
-				I want to use this site to show you my skills and projects and hope you will like them!
-			</p>
-
-			<h3 class="bg-success text-uppercase">skill summary</h3>
-			<p id="secondp" class="bg-success">
-				<strong>Programming:</strong>
-				C++/C, C#, Java, HTML/CSS, JavaScript, Python, Git, BASH, SQL
-				Frameworks/Tools:
-				Angular, Unity, MapleSim, Autodesk Inventor
-				<br>
-				<strong>Interpersonal:</strong>
-				Working in tandem with team members to coordinate on projects, ensuring the quality and efficiency of individual and group performance
-				Highly-motivated individual with the ability to learn quickly under minimum guidance
-				Excellent team player with strong communication skills
-				Passionate for software engineering
-			</p>
-			<h3 class="bg-info text-uppercase">projects</h3>	
-			<p id="thirdp" class="bg-info">
-				<strong>CD-ROM GEAR TRAIN DESIGN PROJECT (Team Leader)</strong>
-				<br>
-				Developed a combination of gear train to efficiently connect motor with read-head in CD-ROM.
-				Excellent understanding of engineering design process
-				<br>Tools: <strong>AutoDesk, MapleSim</strong>
-				<br>
-				<br>
-				<strong>OTHER PROJECTS</strong>
-				<br>
-				<strong>6 Men's Morris</strong>
-				<br>
-				<a href="https://github.com/TinkLyke/6MensMorris">Project Link</a>
-				<br>
-				A board game made in Java
-				<br>Tools: <strong>Java</strong>
-				<br>
-				<br>
-				<strong>LittleCalculator</strong>
-				<br>
-				<a href="https://github.com/TinkLyke/Cpp_LittleCalculator">Project Link</a>
-				<br>
-				Programmed a fully functional calculator using object oriented design principles in a team of two
-				<br>
-				Tools: <strong>C++</strong>
-				<br>
-				<br>
-				<strong>Bash Shell Project (Linux):</strong>
-				<br>
-				<a href="https://github.com/TinkLyke/LinuxProject">Project Link</a>
-				<br>
-				Programmed an application using Bash Shell that takes input string and displaying itself with its longest Lyndon substring
-				<br>
-				Tools: <strong>Bash Shell Scripting</strong>
-				<br>
-				<br>
-				<strong>Personal Website:</strong>
-				<br>
-				<a href="https://github.com/TinkLyke/TinkLyke.github.io">Project Link</a>
-				<br>
-				this site!!
-				<br>
-				Tools: <strong>HTML/CSS,JavaScript,Bootstrap UI</strong>
-				<br>
-				
-			</p>
-			<h3 class="bg-warning text-uppercase">interests</h3>
-			<p id="fourthp" class="bg-warning">
-				Developing video games
-				<br>
-				Designing digital arts
-				<br>
-				<strong>**there are some of my drawing on the right side!! Enjoy!!! &#9786</strong> 
-			</p>
-
-		</div>
-
-		<div class="col-md-4">
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				<!-- Indicators -->
-				<ol class="carousel-indicators">
-					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#myCarousel" data-slide-to="1"></li>
-					<li data-target="#myCarousel" data-slide-to="2"></li>
-					<li data-target="#myCarousel" data-slide-to="3"></li>
-				</ol>
-
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox">
-					<div class="item active">
-						<img src="eye.jpg" alt="eye" height="500" width="400">
-					</div>
-
-					<div class="item">
-						<img src="gun.jpg" alt="gun" height="500" width="400">
-					</div>
-
-					<div class="item">
-						<img src="light.jpg" alt="light" height="500" width="400">
-					</div>
-
-					<div class="item">
-						<img src="night.jpg" alt="night" height="500" width="400">
-					</div>
-				</div>
-
-				<!-- Left and right controls -->
-				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-		</div>
+<div id="homeSection" class="sect sectOne">
+	<div class="textbox1">
+		<p id="welcome">Welcome!</p>
+		<p id="intro">
+		I am Will.
+		<br>
+		This is my personal site!! 
+		<br>Feel free to look around!! 
+		</p>
 	</div>
 
 
+</div>
+<div id="aboutmeSection" class="subSection subOne">
+	<div class="textbox2">
+		<h1>About me</h1>
+		<p id="about">I am a 3rd-year Software Engineering Game Design student from McMater University.<br>
+					I love developing games and making digital arts during my spare time. I am an outgoing person, so feel free to contact me if you want to talk to me!! <br>
+					I love talking to people and get to know them. &#X263A<br>
+					I also love playing outdoor sports like soccer, swimming and etc. <br>
+
+					I keep the balance between school and personal hobbies.<br>
+
+					P.S. If you like to develop games or create digital art, feel free to add me on social media!! &#X263A</p>
+	</div>
+
+
+</div>
+<div id="skillSection" class="sect sectTwo">
+	<div class="textbox3">
+		<h1>Skill Summary</h1>
+		<p id="skill"><b>Programming Skills:</b>
+		<br>
+		<br>Most experienced with:
+		<br>
+		<ul class="mostexp">
+  			<li>Java</li>
+  			<li>C++</li>
+  			<li>HTML/CSS</li>
+  			<li>JavaScript</li>
+		</ul>
+		<br>
+		Some experience with: 
+		<br>
+		<br>
+		<ul class="someexp">
+  			<li>C</li>
+  			<li>OpenGL</li>
+  			<li>PHP</li>
+		</ul>
+		<br>
+		<b>Frameworks/Tools:</b>
+		<br>
+		<br>
+		Git/SVN, Bootstrap UI, Apache, MySQL, Microsoft Visual Studio, Eclipse, Linux (Xubuntu)	
+		</p>
+	</div>
+
+
+</div>
+<div id="projectSection" class="subSection subTwo">
+
+
+
+</div>
+<div id="workexpSection" class="sect sectThree">
+	
+
+
+</div>
+
+<div id="interestSection" class="subSection subThree">
+
+
+
+</div>
+
+<div id="contactSection" class="sect sectFour">
+	
+
+
+</div>
 
 
 </body>
 </html>
 
-
-<style>
-	#myCarousel{
-		height: 500
-		width: 2000;
-		height:100%;
-		top: 100;
-		left: 50
-	}
-	#top{
-		height: 500;
-		width: 2000;
-		position: relative;
-	}
-	#headerpic{
-		position: absolute;
-		left: 0;
-		top:0;
-	}
-	#name{
-		z-index: 100;
-		position: absolute;
-		color: white;
-		font-size: 50px;
-		font-weight: bold;
-		left: 50px;
-		top: 350px;
-	}
-	#position{
-		z-index: 100;
-		position: absolute;
-		color: white;
-		font-size: 25px;
-		left: 50px;
-		top: 400px;
-	}
-	body{
-		background-color:#000000;
-	}
-	h2{
-		color: white;
-	}
-
-
-</style>
