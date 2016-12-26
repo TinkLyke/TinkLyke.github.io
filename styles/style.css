@@ -88,6 +88,7 @@ nav a{
 	top: 22%;
 	color: #fff;
 	margin-left: 20%;
+	margin-right: 20%;
 	font-size: 1.5vw;
 	z-index: 50px;
 	text-shadow: 1.5px 2px 0px #000000;
@@ -107,6 +108,50 @@ h1{
 	font-weight: bold;
 	font-size: 2vw;
 
+}
+pre{
+	font-family:"Times New Roman", Times, serif;
+}
+a.repolink:link {
+    color: #66ff99;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.repolink:visited {
+    color: #66ff99;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.repolink:hover {
+    color: #00ff00;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a.repolink:active {
+    color:#00ff00;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a.linkedin:link {
+    color: #66ff99;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.linkedin:visited {
+    color: #66ff99;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.linkedin:hover {
+    color: #00ff00;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a.linkedin:active {
+    color:#00ff00;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 
